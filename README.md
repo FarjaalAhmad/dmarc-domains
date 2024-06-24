@@ -1,7 +1,7 @@
 # DMARC Domains
 
 ## Overview
-dmarc-domains.py is a Python script designed to retrieve a list of domains that share the same DMARC (Domain-based Message Authentication, Reporting, and Conformance) record as a specified domain. This tool leverages the automation to fetch data from the `www.dmarc.live` using Requests and Beautiful Soup for parsing the HTML content to extract the domain names.
+dmarc_domains.py is a Python script designed to retrieve a list of domains that share the same DMARC (Domain-based Message Authentication, Reporting, and Conformance) record as a specified domain. This tool leverages the automation to fetch data from the `www.dmarc.live` using Requests and Beautiful Soup for parsing the HTML content to extract the domain names.
 
 ## Features
 - Fetches and prints a list of domains with the same DMARC record for the input domain.
@@ -18,7 +18,7 @@ You can use the following command for easy installation of depencencies.
 
 To use the DMARC Domain Fetcher, run the script from the command line with the `-d/--domain` argument followed by the domain name you wish to query. Here is an example command:
 
-`python dmarc-domains.py -d yahoo.com`
+`python dmarc_domains.py -d yahoo.com`
 
 
 ### Output
